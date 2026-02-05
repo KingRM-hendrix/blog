@@ -3,5 +3,17 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
   "minima/initialize";
+
+  .u-email {
+  color: lightgreen;
+}
+
+.p-name {
+  color:yellow;
+}
+
+.footer-col {
+  color: white;
+}
